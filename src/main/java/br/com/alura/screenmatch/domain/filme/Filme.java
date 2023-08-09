@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 //Entidade é uma classe que é também uma tabela no banco de dados
 
 @Entity
-@Table(name = "filmes")
+@Table(name = "tb_filmes")
 public class Filme {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
